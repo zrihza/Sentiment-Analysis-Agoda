@@ -1,7 +1,8 @@
 # 🧳 Sentiment‑Analysis‑Agoda
 > Mining 20 k+ Indonesian Google Play reviews of the **Agoda** mobile app, then training classic ML models *and* an LSTM to spot the vibes. Built with Python, scikit‑learn, TensorFlow Keras, and a splash of WordCloud.
 
-![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
+![Dependencies](https://img.shields.io/badge/dependencies-pip--install--r--requirements.txt-yellow)
 ![Made with Love](https://img.shields.io/badge/made%20with-%F0%9F%92%96-red)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
@@ -22,3 +23,14 @@ Sentiment-Analysis-Agoda/
 │ └── sentiment_model.ipynb
 ├── requirements.txt
 └── README.md ← you are here
+
+---
+
+## 🔧 Install Dependencies
+# (1) Create and activate a virtual environment (optional)
+python -m venv .venv
+source .venv/bin/activate        # ← for Mac/Linux
+# .venv\Scripts\activate         # ← for Windows
+
+# (2) Install all dependencies from requirements.txt
+pip install -r requirements.txt
