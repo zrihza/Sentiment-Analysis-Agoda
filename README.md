@@ -30,6 +30,7 @@ Sentiment-Analysis-Agoda/
 (1) Create and activate a virtual environment (optional)
 python -m venv .venv
 source .venv/bin/activate        # ← for Mac/Linux
+
 \# .venv\Scripts\activate         # ← for Windows
 
 (2) Install all dependencies from requirements.txt
