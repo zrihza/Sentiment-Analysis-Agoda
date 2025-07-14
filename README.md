@@ -26,12 +26,35 @@ Sentiment-Analysis-Agoda/
 
 ---
 
-## 🔧 Install Dependencies
-(1) Create and activate a virtual environment (optional)
+##🧠 How to Run the Project?
+### Clone the Repository
+git clone https://github.com/yourusername/Sentiment-Analysis-Agoda.git
+cd Sentiment-Analysis-Agoda
+
+### Create and Activate Virtual Environment
+For Windows:
 python -m venv .venv
-source .venv/bin/activate        # ← for Mac/Linux
+.venv\Scripts\activate
 
-\# .venv\Scripts\activate         # ← for Windows
+For macOS/Linux:
+python3 -m venv .venv
+source .venv/bin/activate
 
-(2) Install all dependencies from requirements.txt
+### 🔧 Install Dependencies
+Install all dependencies from requirements.txt
 pip install -r requirements.txt
+
+### Run the Notebooks in Order
+Use Jupyter Notebook, VS Code, or Google Colab.
+
+💬 Step 1 – Data Scraping
+Open and run:
+Scrapping data Sentiment.ipynb
+→ Generates: data/agoda_reviews.csv
+
+🤖 Step 2 – Sentiment Classification
+Open and run:
+sentiment_model.ipynb
+→ Trains ML models (LogReg, NB, SVM, RF) + LSTM
+→ Outputs performance reports + wordclouds
+
