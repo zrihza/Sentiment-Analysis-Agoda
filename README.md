@@ -29,7 +29,7 @@ Sentiment-Analysis-Agoda/
 ## 🧠 How to Run the Project?
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/Sentiment-Analysis-Agoda.git
+git clone https://github.com/zrihza/Sentiment-Analysis-Agoda.git
 cd Sentiment-Analysis-Agoda
 ```
 ### Create and Activate Virtual Environment
