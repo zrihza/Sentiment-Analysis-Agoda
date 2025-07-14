@@ -26,7 +26,7 @@ Sentiment-Analysis-Agoda/
 
 ---
 
-##🧠 How to Run the Project?
+## 🧠 How to Run the Project?
 ### Clone the Repository
 git clone https://github.com/yourusername/Sentiment-Analysis-Agoda.git
 cd Sentiment-Analysis-Agoda
