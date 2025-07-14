@@ -28,22 +28,26 @@ Sentiment-Analysis-Agoda/
 
 ## 🧠 How to Run the Project?
 ### Clone the Repository
+```bash
 git clone https://github.com/yourusername/Sentiment-Analysis-Agoda.git
 cd Sentiment-Analysis-Agoda
-
+```
 ### Create and Activate Virtual Environment
 For Windows:
+```bash
 python -m venv .venv
 .venv\Scripts\activate
-
+```
 For macOS/Linux:
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
-
+```
 ### 🔧 Install Dependencies
+```bash
 Install all dependencies from requirements.txt
 pip install -r requirements.txt
-
+```
 ### Run the Notebooks in Order
 Use Jupyter Notebook, VS Code, or Google Colab.
 
